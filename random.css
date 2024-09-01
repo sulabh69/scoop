@@ -1,0 +1,29 @@
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    
+    
+}
+.div-section{
+    text-align: center;
+
+}
+
+.select{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.generated-topic{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: green;
+}
+.bitch{
+    color: red;
+    text-align: center;
+}

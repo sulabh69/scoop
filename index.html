@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic generator</title>
+    <link rel="stylesheet" href="random.css">
+</head>
+<body>
+
+    <p class="heading">TOPIC GENERATOR </p>
+    <p class="bitch">click the button to get topic related to that field</p>
+    <div class="div-section">
+        <button class="tech-btn select" onclick="generateTopic('tech');">tech</button>
+        <button class="history-btn select" onclick="generateTopic('history');">history</button>
+
+        <button class="movie-btn select" onclick="generateTopic('movie');">movie</button>
+
+        <button class="science-btn select" onclick="generateTopic('science');">science</button>
+
+        <button class="memes-btn select" onclick="generateTopic('memes');">memes</button>
+
+        <button class="refreshing select" onclick="refreshingPage();">reload all topics </button>
+    </div>
+    <p class="generated-topic"></p>
+        
+
+    <script src="random.js"></script>
+</body>
+</html>
